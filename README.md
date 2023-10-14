@@ -10,27 +10,7 @@
 
 My Task Management backend application developed by  [Nest](https://github.com/nestjs/nest) framework.
 
-The main branch of this repo has last and final code for the app.
-Also I have created different branches while developing the app so in each branch you can see different features. 
-
-## Installation
-
-```bash
-$ yarn install
-```
-
-## Running the app
-
-```bash
-# development
-$ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
-```
+this branch use a simple in memory array to keep tasks information.
 
 ## Support
  
