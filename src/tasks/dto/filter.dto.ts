@@ -1,5 +1,5 @@
-import { TaskSatus } from "../tasks.model";
-import { IsOptional, IsIn, IsNotEmpty } from "class-validator";
+import { TaskSatus } from "../model";
+import { IsIn, IsNotEmpty, IsOptional } from "class-validator";
 
 export class FilterTaskDto {
   @IsOptional()

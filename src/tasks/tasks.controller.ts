@@ -11,9 +11,9 @@ import {
   ValidationPipe,
 } from "@nestjs/common";
 import { TasksService } from "./tasks.service";
-import { TaskSatus } from "./tasks.model";
-import { FilterTaskDto, CreateTaskDto, UpdateTaskDto } from "./dto";
-import { StatusValidationPipe } from "./pipe/status.validation.pipe";
+import { CreateTaskDto, FilterTaskDto, UpdateTaskDto } from "./dto";
+import { TaskSatus } from "./model";
+import { StatusValidationPipe } from "./pipe";
 
 @Controller("tasks")
 export class TasksController {

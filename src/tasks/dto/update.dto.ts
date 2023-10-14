@@ -1,7 +1,7 @@
-import { TaskSatus } from "../tasks.model";
+import { TaskSatus } from "../model";
 
-export class UpdateTaskDto{
-  title:string;
-  description:string;
-  status:TaskSatus;
+export class UpdateTaskDto {
+  title: string;
+  description: string;
+  status: TaskSatus;
 }
