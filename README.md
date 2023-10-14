@@ -8,10 +8,8 @@
   
 ## Description
 
-My Task Management backend application developed by  [Nest](https://github.com/nestjs/nest) framework.
-
-The main branch of this repo has last and final code for the app.
-Also I have created different branches while developing the app so in each branch you can see different features. 
+in this repo I've refactored the code in order using the postgres to store and manipulate data, instread of the
+in-memory array.
 
 ## Installation
 
