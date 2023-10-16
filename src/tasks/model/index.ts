@@ -1,1 +1,1 @@
-export { TaskEntity, TaskSatus } from "./task.entity";
+export { TaskEntity, TaskStatus } from "./task.entity";

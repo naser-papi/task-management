@@ -1,7 +1,7 @@
-import { TaskSatus } from "../model";
+import { TaskStatus } from "../model";
 
 export class UpdateTaskDto {
   title: string;
   description: string;
-  status: TaskSatus;
+  status: TaskStatus;
 }
