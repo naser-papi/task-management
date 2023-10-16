@@ -8,8 +8,7 @@
   
 ## Description
 
-in this repo I've refactored the code in order using the postgres to store and manipulate data, instread of the
-in-memory array.
+in this branch I've added the auth module in order to authorization process and protect the task module as well.
 
 ## Installation
 
